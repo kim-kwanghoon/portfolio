@@ -1,0 +1,84 @@
+body{background-color: black; color: white; width: 1024px; margin: 0 auto;
+	overflow-x: hidden; overflow-y:auto; 
+}
+ a { text-decoration: none; color: white; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; }
+    
+.main_mv{position: fixed; top: 10%; right: 17%; letter-spacing: -1px; font-weight: 500; }
+.portfolio{color:#4516ff; font-size:32px; font-weight: 600; }
+
+/*메인페이지*/
+#main #menu ul li {margin-top: 30px;  margin-bottom: 0px;}
+#main #menu ul li a{letter-spacing: -3px;font-weight:900; font-size: 7em; font-weight: 800;
+ transition-property: color, padding-left;
+ transition-duration:0.8s;}
+#main #menu ul li a:hover{color:#4516ff; padding-left:30px;}
+#main .well{position: fixed; top: 3%; margin-left: 54px;}
+#main .nlogout {color:#4516ff;}
+
+#menu {margin-top: 250px;}
+.bg-photo{z-index: -9;    position: fixed;    top: 0;    right: 0;    bottom: 0;    left: 42%;
+    background-image: url(../img/pf.jpg);    background-repeat: no-repeat; opacity: 0.5; width: 45%;     background-size: cover;}
+
+/*안녕하세요 페이지*/
+#about h1{letter-spacing: -3px;font-weight:900; font-size: 5em; font-weight: 700; line-height: 140%; margin-top: 300px;}
+.about_p1{width: 142.8%;  height: 750px;overflow: hidden;margin: 200px 0; background-repeat: no-repeat; opacity: 0.7;}
+.about_p1 img{width: 100%; object-fit: cover;}
+
+.about_textbox{max-width: 80%; margin: 0 auto; color:#fff; margin-bottom: 250px; }
+.about_textbox h4{line-height: 140%; font-size: 40px; margin: 16vh 0 4vh 0;} 
+.about_textbox p {line-height: 170%; font-size: 20px; margin-bottom: 3px; color: #d0d0d0;}
+.about_textbox p:nth-child(2){font-size: 28px; margin-bottom: 3px; font-weight: bold; color:#fff;}
+
+
+/*저는 페이지*/
+#mypo .title{transition-property: color, padding-left;  transition-duration:0.9s;}
+#mypo .title:hover {padding-left:30px;}
+#mypo .title{ text-overflow: ellipsis; overflow: hidden; width: 700px; white-space: nowrap;letter-spacing: -3px;font-weight:900; font-size: 5em; font-weight: 700; line-height: 140%; margin-top: 64px;}
+#mypo p{ text-overflow: ellipsis;  overflow: hidden; width: 500px;color:#4516ff; font-size:24px; font-weight: 600; margin: 0px; margin-top: 16px; white-space: nowrap;}
+#mypo .wtbtn{font-size:2em; font-weight:500; padding: 8px; background-color: black; border: 1px solid #fff; color:white; width: 200px; display: block; margin-top:100px; margin-bottom: 150px; }
+#mypo .listNumbox{margin-top:100px;}
+#mypo .listNum{font-weight: bold; font-size: 2em; margin-top:150px; padding-right: 10px;}
+/*컨텐트*/
+#contact h1{letter-spacing: -3px;font-weight:900; font-size: 5em; font-weight: 700; line-height: 140%; margin-top: 300px;}
+.contact_textbox{max-width: 80%; margin: 0 auto; color:#fff; margin-bottom: 250px; }
+.contact_textbox h4{line-height: 140%; font-size: 40px; margin: 16vh 0 4vh 0;} 
+.contact_textbox p {line-height: 170%; font-size: 20px; margin-bottom: 3px; color: #d0d0d0;}
+.contact_textbox p:nth-child(2){font-size: 28px; margin-bottom: 3px; font-weight: bold; color:#fff;}
+
+/*보는페이지*/
+#poview {margin-bottom: 250px;}
+#poview .content{margin-bottom:60px; width: 80%; margin: 0 auto; }
+#poview #commentTable, #commentFrom {margin-bottom:60px; width: 80%; margin: 0 auto; }
+#poview h5 {white-space: nowrap;letter-spacing: -3px;font-weight:900; font-size: 5em; font-weight: 700; line-height: 140%; margin-top: 64px;  }
+#poview h5:nth-child(1) {margin-top:300px;  margin-bottom:150px; }
+#poview .content{line-height: 170%; font-size: 20px; margin-bottom: 3px; color: #d0d0d0;}
+#poview .poview_p1{width: 142.8%;  height: 500px;overflow: hidden;margin: 70px 0; background-repeat: no-repeat; opacity: 0.7;}
+#poview .commentFrom{max-width: 80%; margin: 0 auto; margin-bottom: 50px;}
+#poview .commentTable{max-width: 80%; margin: 0 auto; margin-bottom: 50px; clear: both;}
+/* #poview .commentFrom input{border: 1px solid #fff; background-color: #000; color:#fff; padding: 4px;margin-bottom: 20px;}
+#poview .commentFrom .btn{padding: 8px}
+#poview .commentFrom textarea{border: 1px solid #fff; background-color: #000; color:#fff; padding: 4px; width: 80%;}
+#poview .inputbox input{float: left;}
+ */
+#poview #commentFrom input {font-size: 20px font-weight:500; padding: 8px; background-color: black; border: 1px solid #fff; color:white; width: 400px; margin-top: 24px }
+#poview #commentFrom textarea {font-size: 20px font-weight:500; padding: 8px; background-color: black; border: 1px solid #fff; color:white; width: 400px; margin-top: 8px }
+#poview #commentFrom textarea::placeholder {font-size: 15px}
+#poview #commentFrom .commaddbtn{width: 130px;}
+#poview .commdesign {border-left: 3px solid #585858; padding-left: 20px;}
+#poview .commdesign strong {color:#643dfd;}
+
+#login h1 {white-space: nowrap;letter-spacing: -3px;font-weight:900; font-size: 5em; font-weight: 700;}
+#login h4{line-height: 140%; font-size: 40px; margin: 16vh 0 4vh 0;} 
+#login input {font-size:2em; font-weight:500; padding: 8px; background-color: black; border: 1px solid #fff; color:white; width: 400px; margin-top: 24px}
+#login .loginbtn {width: 200px; margin-bottom: 50px;}
+#login .naverbtn img {width: 200px;}
+
+#write input{ margin:0 auto; width:50%; font-size:2em; font-weight:500; padding: 8px; background-color: black; border: 1px solid #fff; color:white; display: block; margin-top:8px;}
+#write form:first-child{margin-top: 30px;}
+#write .wuplo{background-color: #4c4c4c; width:52%;}
+
+#write .wrtext{margin:0 auto; width:50%; font-size:2em; font-weight:500; padding: 8px; background-color: black; border: 1px solid #fff; color:white;  display: block; margin-top:8px;}
