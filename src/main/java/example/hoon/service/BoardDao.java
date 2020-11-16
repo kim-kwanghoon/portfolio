@@ -1,13 +1,14 @@
-package org.spring.service;
+package example.hoon.service;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.mybatis.spring.support.SqlSessionDaoSupport;
-import org.spring.model.BoardDto;
-import org.spring.model.BoardFileDto;
-import org.spring.model.CommentDto;
+
+import example.hoon.model.BoardDto;
+import example.hoon.model.BoardFileDto;
+import example.hoon.model.CommentDto;
 
 public class BoardDao extends SqlSessionDaoSupport {
 	

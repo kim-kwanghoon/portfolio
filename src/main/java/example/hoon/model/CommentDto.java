@@ -1,4 +1,4 @@
-package org.spring.model;
+package example.hoon.model;
 
 import java.util.Date;
 

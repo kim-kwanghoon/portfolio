@@ -1,11 +1,12 @@
-package org.spring.service;
+package example.hoon.service;
 
 
 import java.util.Map;
 
-import org.spring.model.MbJoinDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import example.hoon.model.MbJoinDto;
 
 
 @Service

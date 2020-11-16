@@ -1,9 +1,10 @@
-package org.spring.service;
+package example.hoon.service;
 
 import java.util.Map;
 
 import org.mybatis.spring.support.SqlSessionDaoSupport;
-import org.spring.model.MbJoinDto;
+
+import example.hoon.model.MbJoinDto;
 
 public class MbJoinDao extends SqlSessionDaoSupport {
 	

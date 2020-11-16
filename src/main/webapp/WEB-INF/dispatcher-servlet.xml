@@ -27,7 +27,7 @@
 
 
 	<context:component-scan
-		base-package="org.spring.*" />
+		base-package="example.hoon.*" />
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -48,10 +48,10 @@
 
 	<!-- 빈등록하기 -->
 
-	<bean id="MbJoinDao" class="org.spring.service.MbJoinDao"
+	<bean id="MbJoinDao" class="example.hoon.service.MbJoinDao"
 		p:sqlSessionFactory-ref="sqlSessionFactory" />
 
-	<bean id="BoardDao" class="org.spring.service.BoardDao"
+	<bean id="BoardDao" class="example.hoon.service.BoardDao"
 		p:sqlSessionFactory-ref="sqlSessionFactory" />
 
 

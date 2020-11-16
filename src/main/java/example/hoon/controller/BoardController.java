@@ -1,13 +1,9 @@
-package org.spring.controller;
+package example.hoon.controller;
 
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.spring.model.BoardDto;
-import org.spring.model.BoardListModel;
-import org.spring.model.CommentDto;
-import org.spring.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,6 +15,11 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.google.gson.Gson;
+
+import example.hoon.model.BoardDto;
+import example.hoon.model.BoardListModel;
+import example.hoon.model.CommentDto;
+import example.hoon.service.BoardService;
 
 
 

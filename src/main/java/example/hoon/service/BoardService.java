@@ -1,4 +1,4 @@
-package org.spring.service;
+package example.hoon.service;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,13 +7,14 @@ import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.spring.model.BoardDto;
-import org.spring.model.BoardFileDto;
-import org.spring.model.BoardListModel;
-import org.spring.model.CommentDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+
+import example.hoon.model.BoardDto;
+import example.hoon.model.BoardFileDto;
+import example.hoon.model.BoardListModel;
+import example.hoon.model.CommentDto;
 
 @Service
 public class BoardService {
