@@ -1,9 +1,9 @@
-package org.spring.model;
+package example.hoon.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.spring.service.Paging;
+import example.hoon.service.Paging;
 
 
 public class BoardListModel {
